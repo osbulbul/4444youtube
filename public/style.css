@@ -1,0 +1,137 @@
+*{
+    font-family: Arial;
+}
+
+.heading{
+    font-family: Arial;
+    margin-top:40px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #282828;
+}
+
+.slogan{
+    font-size: 14px;
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 40px;
+}
+
+.download-wrapper{
+    text-align: center;
+}
+
+.url-input, .download-button{
+    font-size:1.3em;
+    padding:5px 10px;
+}
+
+.url-input{
+    border-radius:4px 0px 0px 4px;
+    min-width:500px;
+    text-align: left;
+    border:2px solid #EEEEEE;
+    background: #EEEEEE;
+    outline:none;
+}
+
+.url-input:focus{
+    border:2px solid #ff0000;
+}
+
+.download-button{
+    border-radius:0px 4px 4px 0px;
+    border:2px solid #ff0000;
+    background: #ff0000;
+    color:white;
+    margin-left: -4px;
+}
+
+.download-button:hover{
+    cursor: pointer;
+}
+
+#video-card{
+    display: none;
+    max-width: 630px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #eee;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    overflow: auto;
+    margin-bottom: 100px;
+}
+
+#video-card.active{
+    display:block;
+}
+
+#card-box>.left{
+    float: left;
+    width: 30%;
+}
+
+#card-box>.right{
+    float: right;
+    width: 65%;
+}
+
+#card-box>.left>img{
+    max-width: 100%;
+}
+
+#card-box h3{
+    margin: 0;
+}
+
+#card-box p{
+    font-size: 16px;
+    color: #999;
+    font-weight: bold;
+}
+
+#card-box ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#card-box ul li{
+    margin-bottom: 8px;
+}
+
+#card-box ul li a{
+    display: block;
+    text-decoration: none;
+    color: #282828;
+    background: transparent;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight:bold;
+}
+
+#card-box ul li a:hover{
+    background: #ff0000;
+    color: #fff;
+    border-color: #ff0000;
+}
+
+.info-wrapper{
+    min-width: 650px;
+    margin:0 auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.info-wrapper p{
+    font-size: 16px;
+    color: #aaa;
+}
